@@ -123,7 +123,6 @@ void SRichCurveValueContent::Construct(FArguments const & InArgs, TSharedRef<IPr
 
 SRichCurveValueContent::~SRichCurveValueContent()
 {
-	SCompoundWidget::~SCompoundWidget();
 	ClosePotentialEditTab();
 }
 
