@@ -2,6 +2,7 @@
 An Unreal Engine plugin that provides a custom FRichCurve editor to enable the usage of Unreal Engine's curves without curve assets.
 
 ## Known Issues
+### UE5.2 And Preceding Versions
 Curve editors assigned to FRichCurves that are not direct members of their UObject owner may not get automatically closed once their owner's editor tab gets closed.
 This is due to the assigned FRichCurve's custom editor widget not being destroyed by the engine once its tab gets destroyed, as its destructor is used to detect the destruction of the owning tab.
 This is most definitely an engine bug, as the custom editor of some non-direct FRicheCurve members (seemingly somewhat randomly) do get destroyed.
