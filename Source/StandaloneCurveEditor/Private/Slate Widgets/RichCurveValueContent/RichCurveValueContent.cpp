@@ -1,6 +1,6 @@
 #include "RichCurveValueContent.h"
 #include "SlateOptMacros.h"
-#include "Slate Widgets/SStandaloneCurveEditor/StandaloneCurveEditor.h"
+#include "Slate Widgets/SStandaloneCurveEditor/SStandaloneCurveEditor.h"
 #include "Widgets/Docking/SDockTab.h"
 #include "Widgets/Layout/SSpacer.h"
 

@@ -1,4 +1,5 @@
 #include "StandaloneCurveEditor.h"
+#include "Custom Details Panel/CustomLayoutDetails.h"
 
 #define LOCTEXT_NAMESPACE "FStandaloneCurveEditorModule"
 

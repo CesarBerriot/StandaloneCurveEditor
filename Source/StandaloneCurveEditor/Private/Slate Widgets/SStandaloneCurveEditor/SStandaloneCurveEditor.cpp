@@ -1,4 +1,4 @@
-#include "StandaloneCurveEditor.h"
+#include "SStandaloneCurveEditor.h"
 #include "RichCurveEditorModel.h"
 #include "SCurveEditorPanel.h"
 #include "SlateOptMacros.h"
