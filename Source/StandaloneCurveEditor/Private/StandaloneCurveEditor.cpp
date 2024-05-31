@@ -11,7 +11,7 @@ void FStandaloneCurveEditorModule::StartupModule()
 void FStandaloneCurveEditorModule::ShutdownModule()
 {
 	FPropertyEditorModule& PropertyModule = FModuleManager::LoadModuleChecked<FPropertyEditorModule>("PropertyEditor");
-	PropertyModule.UnregisterCustomPropertyTypeLayout(NAME_StructProperty);
+	PropertyModule.UnregisterCustomPropertyTypeLayout(FRichCurve::StaticStruct()->GetFName());
 }
 
 #undef LOCTEXT_NAMESPACE
